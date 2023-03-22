@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <Target Name="GenerateReference" AfterTargets="Build">
+    <PropertyGroup>
+      <ReferencesFile>$(ProjectDir)$(IntermediateOutputPath)Reference.txt</ReferencesFile>
+    </PropertyGroup>
+
+    <WriteLinesToFile File="$(ReferencesFile)" Lines="@(ReferencePath)" Overwrite="true" />
+  </Target>
+
+</Project>

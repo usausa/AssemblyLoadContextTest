@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetLibrary", "TargetLibrary\TargetLibrary.csproj", "{29BE13FB-3388-46D9-BC0A-1D1BF15962E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetLibrary", "TargetLibrary\TargetLibrary.csproj", "{29BE13FB-3388-46D9-BC0A-1D1BF15962E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetApp", "TargetApp\TargetApp.csproj", "{707F6F0A-3056-4EC7-863E-76AD1D24580A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetApp", "TargetApp\TargetApp.csproj", "{707F6F0A-3056-4EC7-863E-76AD1D24580A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoaderConsole", "LoaderConsole\LoaderConsole.csproj", "{178D59BB-8C30-47BC-A9B0-33D7FB70C0A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoaderConsole", "LoaderConsole\LoaderConsole.csproj", "{178D59BB-8C30-47BC-A9B0-33D7FB70C0A2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{29BE13FB-3388-46D9-BC0A-1D1BF15962E9} = {29BE13FB-3388-46D9-BC0A-1D1BF15962E9}
 		{707F6F0A-3056-4EC7-863E-76AD1D24580A} = {707F6F0A-3056-4EC7-863E-76AD1D24580A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoaderWpfApp", "LoaderWpfApp\LoaderWpfApp.csproj", "{9C70E095-B391-487D-A4C1-519180C0D23C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoaderWpfApp", "LoaderWpfApp\LoaderWpfApp.csproj", "{9C70E095-B391-487D-A4C1-519180C0D23C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{29BE13FB-3388-46D9-BC0A-1D1BF15962E9} = {29BE13FB-3388-46D9-BC0A-1D1BF15962E9}
 		{707F6F0A-3056-4EC7-863E-76AD1D24580A} = {707F6F0A-3056-4EC7-863E-76AD1D24580A}
